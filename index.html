@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="content">
+		<div class="content__satrs"></div>
+		<div class="content__satrs content__satrs_medium"></div>
+		<div class="content__satrs content__satrs_big"></div>
+		<div class="content__container">
+			<div class="content__card card">
+				<div class="card__content">
+					<h2 class="card__h2">01</h2>
+					<h3 class="card__h3">Card One</h3>
+					<p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consequuntur sequi nostrum tenetur, harum ab fuga blanditiis qui quisquam quasi cumque magnam magni, nobis perspiciatis odio quia porro, corporis! Laudantium!</p>
+					<a class="card__link" href="#">Read More</a>
+				</div>
+			</div>
+			<div class="container__card card">
+				<div class="card__content">
+					<h2 class="card__h2">02</h2>
+					<h3 class="card__h3">Card Two</h3>
+					<p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consequuntur sequi nostrum tenetur, harum ab fuga blanditiis qui quisquam quasi cumque magnam magni, nobis perspiciatis odio quia porro, corporis! Laudantium!</p>
+					<a class="card__link" href="#">Read More</a>
+				</div>
+			</div>
+			<div class="container__card card">
+				<div class="card__content">
+					<h2 class="card__h2">03</h2>
+					<h3 class="card__h3">Card Tree</h3>
+					<p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consequuntur sequi nostrum tenetur, harum ab fuga blanditiis qui quisquam quasi cumque magnam magni, nobis perspiciatis odio quia porro, corporis! Laudantium!</p>
+					<a class="card__link" href="#">Read More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/vanilla-tilt.js"></script>
+	<script>
+		VanillaTilt.init(document.querySelectorAll(".card"), {
+			max: 25,
+			speed: 400,
+			// Отражение
+			// glare: true,
+			// "max-glare": 1,
+		});
+	</script>
+</body>
+</html>
